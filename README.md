@@ -9,8 +9,11 @@ Sometimes I am too lazy to scroll up through console output and I don't have a s
 # Normal usage
 $ ls | slomo
 
-# Change the rate to 100ms
-$ cat hello.txt | slomo -rate 100
+# Change the rate to 50ms
+$ cat hello.txt | slomo -rate 50
+
+# Change the buffer size
+$ tree | slomo -buf 100
 ```
 
 ## Limitations
